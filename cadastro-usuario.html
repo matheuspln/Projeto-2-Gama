@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cadastro de Usuário</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+	<header id="logo">
+		<a href="index.html">
+			<img src="img/logo.png">
+			<h1>Meu Game Retro</h1>
+		</a>
+	</header>
+	<div id="container">
+		<h1 class="destaque">Inscreva-se grátis e aproveite <br> nossas ofertas!</h1>
+		<form>
+
+			<div class="areadupla">
+
+				<div class="primeiroitem">
+
+					<label for="nomeusuario" class="labeldestaque">Qual é o seu nome?</label>
+					<input type="text" name="nomeusuario" id="nomeusuario" class="inputdestaque" placeholder="Digite o seu nome">
+					
+				</div>
+
+				<div class="segundoitem">
+					
+					<label for="sobrenomeusuario" class="labeldestaque">Qual é o seu sobrenome?</label>
+					<input type="sobrenomeusuario" name="sobrenomeusuario" id="sobrenomeusuario" class="inputdestaque" placeholder="Digite o seu sobrenome">
+
+				</div>
+				
+			</div>
+
+			<label for="email" class="labeldestaque">Qual é o seu e-mail?</label>
+			<input type="text" name="email" id="email" class="inputdestaque" placeholder="Digite o seu e-mail">
+
+			<br>
+
+			<label for="confirmemail" class="labeldestaque">Confirme o seu email:</label>
+			<input type="text" name="confirmemail" id="confirmemail" class="inputdestaque" placeholder="Digite o seu e-mail novamente">
+
+			<br>
+
+			<label for="senha" class="labeldestaque">Crie uma senha:</label>
+			<input type="password" name="senha" id="senha" class="inputdestaque" placeholder="Digite uma senha">
+
+			<br>
+
+			<label for="confirmsenha" class="labeldestaque">Confirme a senha:</label>
+			<input type="password" name="confirmsenha" id="confirmsenha" class="inputdestaque" placeholder="Digite a senha novamente">
+
+			<br>
+
+			<label for="username" class="labeldestaque">Escolha um nome de usuário</label>
+			<input type="text" name="username" id="username" class="inputdestaque" placeholder="Digite um nome de usuário">
+
+			<br>
+
+			<div id="data">
+
+				<h4>Qual é a sua data de nascimento?</h4>
+				<div id="areadia">
+					<label for="dia" class="arealabel">Dia:</label>
+					<input type="text" name="dia" id="dia" placeholder="Dia">
+				</div>
+
+				<div id="areames">
+					<label for="mes" class="arealabel">Mês:</label>
+
+					<select name="mes" id="mes">
+					  <option value="Janeiro">Janeiro</option>
+					  <option value="Fevereiro">Fevereiro</option>
+					  <option value="Março">Março</option>
+					  <option value="Abril">Abril</option>
+					  <option value="Maio">Maio</option>
+					  <option value="Junho">Junho</option>
+					  <option value="Julho">Julho</option>
+					  <option value="Agosto">Agosto</option>
+					  <option value="Setembro">Setembro</option>
+					  <option value="Outubro">Outubro</option>
+					  <option value="Novembro">Novembro</option>
+					  <option value="Dezembro">Dezembro</option>
+					</select>
+				</div>
+
+				<div id="areaano">
+					<label for="ano" class="arealabel">Ano:</label>
+					<input type="text" name="ano" id="ano" placeholder="Ano">
+				</div>
+				
+			</div>
+
+			<h4>Qual é o seu gênero?</h4>
+
+			<div id="genero">
+
+				<div class="opcaogenero">
+					
+					<input type="radio" id="masculino" name="genero" value="masculino">
+					<label for="masculino">Masculino</label>
+					
+				</div>
+			
+				<div class="opcaogenero">
+					
+					<input type="radio" id="feminino" name="genero" value="feminino">
+					<label for="feminino">Feminino</label>
+					
+				</div>
+
+				<div class="opcaogenero">
+					
+					<input type="radio" id="naobinario" name="genero" value="naobinario">
+					<label for="naobinario">Não binário</label>
+					
+				</div>
+				
+			</div>
+
+			<div class="areatermos">
+				<input type="checkbox" id="termos" name="termos" value="termos">
+				<label for="termos">Eu concordo com os <a href="">Termos e condições do Meu Game Retro</a></label>	
+			</div>
+
+			<input type="submit" name="cadastrar" class="cadastrar" value="Cadastrar">
+		</form>
+	</div>
+</body>
+</html>

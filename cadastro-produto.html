@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cadastro de Produto</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+	<header id="logo">
+		<a href="index.html">
+			<img src="img/logo.png">
+			<h1>Meu Game Retro</h1>
+		</a>
+	</header>
+	<div id="container">
+		<h1 class="destaque">Cadastro de produto</h1>
+		<form>
+			<label for="nomeproduto" class="labeldestaque">Qual é o nome do produto?</label>
+			<input type="text" name="nomeproduto" id="nomeproduto" class="inputdestaque" placeholder="Digite o nome do produto">
+
+			<div class="areadupla">
+
+				<div class="primeiroitem">
+					<label for="codigoproduto" class="labeldestaque">Qual é o código do produto?</label>
+					<input type="text" name="codigoproduto" id="codigoproduto" class="inputdestaque" placeholder="Digite o código do produto">
+				</div>
+
+				<div class="segundoitem">
+					<label for="marcaproduto" class="labeldestaque">Qual é a marca do produto?</label>
+					<input type="text" name="marcaproduto" id="marcaproduto" class="inputdestaque" placeholder="Digite a marca do produto">
+				</div>
+			</div>
+
+			<div class="areadupla">
+				
+				<div class="primeiroitem">
+					<label for="valorvenda" class="labeldestaque">Valor de venda (R$)</label>
+					<input type="text" name="valorvenda" id="valorvenda" class="inputdestaque" placeholder="R$100,00">
+				</div>
+
+				<div class="segundoitem">
+					<label for="valorcusto" class="labeldestaque">Valor de custo (R$)</label>
+					<input type="text" name="valorcusto" id="valorcusto" class="inputdestaque" placeholder="R$100,00">
+				</div>
+			</div>
+
+			<div class="areadupla">
+				
+				<div class="primeiroitem">
+					<label for="estoqueminimo" class="labeldestaque">Estoque mínimo:</label>
+					<input type="text" name="estoqueminimo" id="estoqueminimo" class="inputdestaque" placeholder="Quantidade mínima">
+				</div>
+
+				<div class="segundoitem">
+					<label for="estoquemaximo" class="labeldestaque">Estoque máximo:</label>
+					<input type="text" name="estoquemaximo" id="estoquemaximo" class="inputdestaque" placeholder="Quantidade máxima">
+				</div>
+			</div>
+
+			<div class="areadupla">
+				
+				<div class="primeiroitem">
+					<label for="pesoproduto" class="labeldestaque">Peso do produto:</label>
+					<input type="text" name="pesoproduto" id="pesoproduto" class="inputdestaque" placeholder="Ex: 2,5kg">
+				</div>
+
+				<div class="segundoitem">
+					<label for="tamanhoproduto" class="labeldestaque">Tamanho do produto:</label>
+					<input type="text" name="tamanhoproduto" id="tamanhoproduto" class="inputdestaque" placeholder="Ex: 0,5m">
+				</div>
+			</div>
+
+			<div class="areadupla">
+
+				<div class="primeiroitem">
+					<label for="tipoproduto" class="labeldestaque">Tipo de produto: </label>
+
+					<select name="tipoproduto" id="tipoproduto">
+					  <option value="Janeiro">Console</option>
+					  <option value="Fevereiro">Jogo</option>
+					  <option value="Março">Acessório</option>
+					</select>
+				</div>
+
+				<div class="segundoitem">
+					<label for="origemproduto" class="labeldestaque">Origem do produto: </label>
+
+					<select name="origemproduto" id="origemproduto">
+					  <option value="Janeiro">Nacional</option>
+					  <option value="Fevereiro">Importado</option>
+					</select>
+					
+				</div>
+				
+			</div>
+
+			<div class="areatermos">
+				<input type="checkbox" id="termos" name="termos" value="termos">
+				<label for="termos">Eu concordo com os <a href="">Termos e condições do Meu Game Retro</a></label>	
+			</div>
+
+			<input type="submit" name="cadastrar" class="cadastrar" value="Cadastrar">
+
+		</form>
+	</div>
+</body>
+</html>
