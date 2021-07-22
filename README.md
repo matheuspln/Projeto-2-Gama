@@ -3,10 +3,15 @@ Segundo projeto desenvolvido para o programa de treinamento Hiring Coders da Gam
 Estrutura do projeto:
 
 Pasta css => local onde ficam armazenados os arquivos de folha de estilo para estilização das páginas
+
 Pasta img => local onde ficam armazenados os arquivos de imagem utilizados nas páginas
+
 Pasta js => local onde ficam armazenados os códigos Javascript utilizados na página
+
 Arquivo cadastro-produto.html => Página html para cadastro de produtos
+
 Arquivo cadastro-usuario.html => Página html para cadastro de usuários
+
 Arquivo index.html => Página inicial html do projeto
 
 Página inicial (index.html):
